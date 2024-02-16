@@ -12,5 +12,5 @@ The goal is to incorporate new features and address any issues in future updates
 
 ## Installation
 1. Clone the project into **/srv/www/htdocs**.
-2. Update the connection information in the **wallboard.php** file (located in the Connections directory).
+2. Update the connection information in the **db.php** file (located in the Connections directory).
 3. Access the URL **http://(yourserverdirection)/wallboard**.
