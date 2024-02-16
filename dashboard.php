@@ -9,7 +9,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 
   $wallboard = mysqli_connect($hostname_wallboard, $username_wallboard, $password_wallboard, $database_wallboard);
   if (!$wallboard) {
-    die("Error al conectar con la base de datos: " . mysqli_connect_error());
+    die("Error connecting to the database: " . mysqli_connect_error());
   }
 
   $theValue = function_exists("mysqli_real_escape_string") ? mysqli_real_escape_string($wallboard, $theValue) : mysqli_escape_string($wallboard, $theValue);
