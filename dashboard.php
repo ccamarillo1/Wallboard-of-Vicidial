@@ -47,7 +47,7 @@ if ($result_active) {
 
     $row_active = mysqli_fetch_assoc($result_active);
 } else {
-    die("Error al ejecutar la consulta: " . mysqli_error($wallboard));
+    die("Error executing the query: " . mysqli_error($wallboard));
 }
 
 mysqli_free_result($result_active);
@@ -63,7 +63,7 @@ if ($result_ivr_calls) {
 
     $row_ivr_calls = mysqli_fetch_assoc($result_ivr_calls);
 } else {
-    die("Error al ejecutar la consulta: " . mysqli_error($wallboard));
+    die("Error executing the query: " . mysqli_error($wallboard));
 }
 
 mysqli_free_result($result_ivr_calls);
@@ -81,7 +81,7 @@ if ($result_waiting_call) {
     $row_waiting_call = mysqli_fetch_assoc($result_waiting_call);
 } else {
 
-    die("Error al ejecutar la consulta: " . mysqli_error($wallboard));
+    die("Error executing the query: " . mysqli_error($wallboard));
 }
 
 
@@ -100,7 +100,7 @@ if ($calling) {
     $row_calling = mysqli_fetch_assoc($calling);
 } else {
 
-    die("Error al ejecutar la consulta: " . mysqli_error($wallboard));
+    die("Error executing the query: " . mysqli_error($wallboard));
 }
 
 
@@ -120,7 +120,7 @@ if ($row_agent_in_call) {
     $row_agent_in_call = mysqli_fetch_assoc($row_agent_in_call);
 } else {
 
-    die("Error al ejecutar la consulta: " . mysqli_error($wallboard));
+    die("Error executing the query: " . mysqli_error($wallboard));
 }
 
 
@@ -140,7 +140,7 @@ if ($row_agent_waiting) {
     $row_agent_waiting = mysqli_fetch_assoc($row_agent_waiting);
 } else {
 
-    die("Error al ejecutar la consulta: " . mysqli_error($wallboard));
+    die("Error executing the query: " . mysqli_error($wallboard));
 }
 
 
@@ -159,7 +159,7 @@ if ($row_paused_agents) {
     $row_paused_agents = mysqli_fetch_assoc($row_paused_agents);
 } else {
 
-    die("Error al ejecutar la consulta: " . mysqli_error($wallboard));
+    die("Error executing the query: " . mysqli_error($wallboard));
 }
 
 
@@ -180,7 +180,7 @@ if ($row_total_inbound) {
     $row_total_inbound = mysqli_fetch_assoc($row_total_inbound);
 } else {
 
-    die("Error al ejecutar la consulta: " . mysqli_error($wallboard));
+    die("Error executing the query: " . mysqli_error($wallboard));
 }
 
 
@@ -200,7 +200,7 @@ if ($row_answered_inbound) {
     $row_answered_inbound = mysqli_fetch_assoc($row_answered_inbound);
 } else {
 
-    die("Error al ejecutar la consulta: " . mysqli_error($wallboard));
+    die("Error executing the query: " . mysqli_error($wallboard));
 }
 
 
@@ -222,7 +222,7 @@ if ($row_drop_inbound) {
     $row_drop_inbound = mysqli_fetch_assoc($row_drop_inbound);
 } else {
 
-    die("Error al ejecutar la consulta: " . mysqli_error($wallboard));
+    die("Error executing the query: " . mysqli_error($wallboard));
 }
 
 
@@ -240,7 +240,7 @@ if ($row_calls_result) {
     $row_calls_today = mysqli_fetch_assoc($row_calls_result);
 } else {
 
-    die("Error al ejecutar la consulta: " . mysqli_error($wallboard));
+    die("Error executing the query: " . mysqli_error($wallboard));
 }
 
 
@@ -261,7 +261,7 @@ if ($row_answered_calls) {
     $row_answered_calls = mysqli_fetch_assoc($row_answered_calls);
 } else {
 
-    die("Error al ejecutar la consulta: " . mysqli_error($wallboard));
+    die("Error executing the query: " . mysqli_error($wallboard));
 }
 
 
@@ -282,7 +282,7 @@ if ($row_drop_calls_today) {
     $row_drop_calls_today = mysqli_fetch_assoc($row_drop_calls_today);
 } else {
 
-    die("Error al ejecutar la consulta: " . mysqli_error($wallboard));
+    die("Error executing the query: " . mysqli_error($wallboard));
 }
 
 
@@ -301,7 +301,7 @@ if ($row_dead_agent) {
     $row_dead_agent = mysqli_fetch_assoc($row_dead_agent);
 } else {
 
-    die("Error al ejecutar la consulta: " . mysqli_error($wallboard));
+    die("Error executing the query: " . mysqli_error($wallboard));
 }
 
 
