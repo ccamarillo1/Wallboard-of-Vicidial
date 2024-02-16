@@ -1,6 +1,6 @@
 # Vicidial Wallboard
 
-Vicidial Wallboard, also known as WoV, is a compact and user-friendly wallboard designed for Vicidial, based on another project found at:
+Vicidial Wallboard, also known as WoV (Wallboard of Vicidial), is a compact and user-friendly wallboard designed for Vicidial, based on another project found at:
 
 https://github.com/saltyfacu/Vicidial-Wallboard
 
