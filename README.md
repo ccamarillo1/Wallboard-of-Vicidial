@@ -15,5 +15,5 @@ The goal is to incorporate new features and address any issues in future updates
 2. Update the connection information in the **db.php** file (located in the Connections directory).
 3. Access the URL **http://(yourserverdirection)/wallboard**.
 
-4. ![wallboard](https://github.com/ccamarillo1/Wallboard-of-Vicidial/assets/122557583/e196417a-f70b-4177-8e86-311db7ea81a1)
+![wallboard](https://github.com/ccamarillo1/Wallboard-of-Vicidial/assets/122557583/e196417a-f70b-4177-8e86-311db7ea81a1)
 
